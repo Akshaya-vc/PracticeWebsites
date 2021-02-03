@@ -1,0 +1,185 @@
+body {
+  font-size: 12px;
+  color: black;
+  background-color: black;
+}
+#header-nav {
+  background-color: black;
+  border-radius: 0;
+  border: 2px solid black;
+}
+.navbar-brand {
+  padding-top: 25px;
+}
+#logo-img1 {
+  background: url("../images/netflix/netflix-logo.png") no-repeat;
+  width: 150px;
+  height: 100px;
+  margin: 10px 15px 10px 0px;
+  background-position: center;
+  background-size: cover;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: whitesmoke;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: darkgray;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+#phone {
+  margin-top: 5px;
+}
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+  border: 1px;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+#call-btn > a {
+  font-size: 1.5em;
+  display: block;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  background-color: Red;
+  color: whitesmoke;
+}
+#movies-tile,
+#tv-tile,
+#doc-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  overflow: hidden;
+}
+#movies-tile:hover,
+#tv-tile:hover,
+#doc-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+#movies-tile {
+  background: url("../images/netflix/movies.jpg") no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+#tv-tile{
+  background: url("../images/netflix/tv-crown.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#doc-tile{
+  background: url("../images/netflix/documentaries.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#movies-tile span,
+#tv-tile span,
+#doc-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: 0.8;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .container .jumbotron {
+    background: url("../images/netflix/netflix-jumbotron-2000.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 675px;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Home Page */
+  .container .jumbotron {
+    background: url("../images/netflix/netflix-jumbotron-2000.png") no-repeat;
+    height: 558px;
+    background-size: cover;
+    background-position: center;
+  }
+  /* End Home Page */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Header */
+  #logo-img {
+    background: url("../images/netflix/netflix-logo.png") no-repeat;
+    width: 130px;
+    height: 50px;
+    margin: 0px 5px 5px 0;
+    background-position: center;
+    background-size: cover;
+  }
+  /* End Header */
+  /* Home Page */
+  .container .jumbotron {
+    background: url("../images/netflix/netflix-jumbotron-2000.png") no-repeat;
+    height: 432px;
+    background-size: cover;
+    background-position: center;
+  }
+  /* End Home Page */
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  #logo-img {
+    background: url("../images/netflix/netflixlogo-small.jfif") no-repeat;
+    width: 50px;
+    height: 50px;
+    margin: 10px 5px 5px 10px;
+    background-position: center;
+    background-size: cover;
+  }
+  /* End Header */
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  #collapsable-nav a {
+    /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span {
+    /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }  /* Home Page */
+  .container .jumbotron {
+    margin-top: 30px;
+    padding: 0;
+  }
+}
+.container .jumbotron {
+  margin-top: 30px;
+  padding: 0;
+  position: relative;
+}
+
+/* End Header */
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 593px) {  
+
+}
