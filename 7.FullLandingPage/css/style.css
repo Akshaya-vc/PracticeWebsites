@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400&display=swap");
+body{
+    background-color: antiquewhite;
+    color: rgb(153, 110, 54);
+    margin: 0;
+    font-family: 'Poppins',sans-serif;
+}
+.landing{
+    background-image: url(http://traversymedia.com/downloads/assets/beachshowcase.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.brand{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+    width: 90%;
+    font-weight: 500;
+}
+.brand h1{
+    font-size: 50px;
+    margin-bottom: 0;
+}
+.brand p{
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+.brand button{
+    background-color: transparent;
+    border: 1px solid rgb(153, 110, 54);
+    border-radius: 10%;
+    padding: 15px 25px;
+    color: rgb(153,110,54);
+    font-size: 15px;
+    outline: none;
+}
+button:hover{
+    background-color: rgb(153, 110, 54);
+    color: whitesmoke;
+    cursor: pointer;
+}
+button:visited, button:{
+    background-color: transparent;
+    border: 1px solid rgb(153, 110, 54);
+    border-radius: 10%;
+    padding: 15px 25px;
+    color: rgb(153,110,54);
+    font-size: 15px;
+}
+.second{
+    background-color: rgb(153,110,54) ;
+    color: whitesmoke;
+    padding: 20px 25px;
+    text-align: center;
+}
+.third{
+    background-color: whitesmoke;
+    color: rgb(153, 110, 54);
+    padding: 20px 25px;
+    text-align: center;
+}
+.fourth{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.corner{
+    background-color: rgb(153,110,54) ;
+    color: whitesmoke;
+    padding: 20px 15px;
+}
+.middle{
+    background-color: whitesmoke;
+    color: rgb(153, 110, 54);
+    padding: 20px 15px;
+}
