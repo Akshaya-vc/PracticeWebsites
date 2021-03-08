@@ -66,12 +66,10 @@ body,html{
     margin-bottom: 50px;
     padding-bottom: 50px;
 }
-@media(max-width:550px)and(min-width:375px){
-
+@media(max-width:550px) and (min-width:375px){
     .sect{
         margin: 20px 10%;
     }
-
 }
 @media(max-width:374px){
     .txt{
