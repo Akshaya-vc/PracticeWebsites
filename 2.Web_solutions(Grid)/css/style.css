@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400&display=swap");
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+.landing {
+  margin: 0;
+  margin-bottom: 50px;
+  padding: 0;
+  color: white;
+  background-color: #333;
+  min-height: 450px;
+  display: block;
+}
+.image {
+  position: relative;
+  background: #333
+    url(https://static.pexels.com/photos/248515/pexels-photo-248515.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  width: 100%;
+  filter: brightness(60%);
+  opacity: 0.8;
+}
+.brand {
+  position: absolute;
+  top: 70px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 90%;
+}
+.brand h2 {
+  font-size: 25px;
+}
+.brand p {
+  font-size: 15px;
+}
+.landing button {
+  background-color: #333;
+  border: 1px solid rgb(109, 106, 106);
+  padding: 15px 30px;
+  color: white;
+  font-size: 15px;
+}
+.second p {
+  padding: 5% 7%;
+  font-size: 15px;
+}
+.third {
+  background-color: #333;
+  display: grid;
+  grid-template-rows: 1fr;
+  padding: 5% 0;
+}
+.item {
+  background-color: white;
+  margin: 3% 5%;
+}
+.third img {
+  width: 100%;
+}
+.text {
+  padding: 3% 8%;
+  font-size: 2.4vmax;
+}
+.text h4 {
+  font-size: 2.5vmax;
+  font-weight: 500;
+}
+.fourth h2 {
+  font-weight: 550;
+  margin: 10% 4% 2% 4%;
+}
+.fourth p {
+  padding: 5% 10%;
+}
+.fifth {
+  display: grid;
+  grid-template-rows: 1fr;
+  color: white;
+}
+.box {
+  padding: 10% 5%;
+}
+.box p {
+  padding-top: 5%;
+}
+.one {
+  background-color: #2690d4;
+}
+.two {
+  background-color: #333;
+}
+.footer {
+  background-color: black;
+  color: white;
+  padding: 8%;
+  line-height: 2;
+}
+a {
+  text-decoration: none;
+  color: #2690d4;
+}
+
+@media(min-width: 700px) {
+  .brand {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 90%;
+  }
+  .brand h2 {
+    font-size: 35px;
+  }
+  .brand p {
+    font-size: 20px;
+    margin: 40px;
+  }
+  .second {
+    margin: 0 100px 50px 100px;
+  }
+  .col {
+    column-width: 430px;
+  }
+  .col p {
+    font-size: 18px;
+  }
+  .second p {
+    padding: 0% 7%;
+    margin: 0;
+  }
+  .second h2 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .third {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1% 1%;
+  }
+  .text {
+    padding: 5% 10%;
+    font-size: 15px;
+  }
+  .item {
+    background-color: white;
+    margin: 3% 5%;
+  }
+  .third img {
+    width: 100%;
+  }
+  .text h4 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 0px;
+  }
+  .fourth h2 {
+    font-weight: 550;
+    margin: 5% 4% 2% 4%;
+    font-size: 29px;
+  }
+  .fourth p {
+    padding: 3% 10% 5% 10%;
+  }
+  .fifth {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .footer {
+    display: grid;
+    padding: 3%;
+    grid-template-columns: 1fr 1fr;
+  }
+}
