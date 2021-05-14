@@ -24,14 +24,14 @@ document.addEventListener("DOMContentLoaded",function(){
     randomize.addEventListener('click', result);
     
     function result() {
-    
+      newStory = storyText; 
       if(customName.value !== '') {
         let name = customName.value;
         newStory = newStory.replace('Bob', name);
         customName.value = "";
     
       }
-        newStory = storyText;
+        
         let xItem = randomValueFromArray(insertX);
         let yItem = randomValueFromArray(insertY);
         let zItem = randomValueFromArray(insertZ);
