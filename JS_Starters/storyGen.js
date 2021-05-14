@@ -24,11 +24,12 @@
     randomize.addEventListener('click', result);
     
     function result() {
-      newStory = storyText; 
+      newStory = storyText;
       if(customName.value !== '') {
         let name = customName.value;
-        newStory = newStory.replace('Bob', name);
+        newStory = newStory.replace('Bob',name);
         customName.value = "";
+        console.log("inside if loop",name);
     
       }
         
