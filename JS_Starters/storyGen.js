@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded",function(){
+//document.addEventListener("DOMContentLoaded",function(){
     const customName = document.getElementById('customname');
     const randomize = document.querySelector('.randomize');
     const story = document.querySelector('.story');
@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded",function(){
       story.style.visibility = 'visible';
     
     }
-})
+//})
 
 
 
