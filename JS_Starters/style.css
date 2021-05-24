@@ -123,14 +123,12 @@ body {
 }
 
 /* 6.Work with JSON  */
-.workwithJSON h1, .workwithJSON h2 {
+
+.workwithJSON h2 {
   font-family: 'Faster One', cursive;
 }
 
-.workwithJSON h1 {
-  font-size: 4rem;
-  text-align: center;
-}
+
 
 .workwithJSON header p {
   font-size: 1.3rem;
@@ -141,6 +139,13 @@ body {
 .workwithJSON section{
   display: flex;
   flex-direction: row;
+  width: 100%;
+}
+@media (max-width:600px){
+  .workwithJSON section{
+    flex-direction: column;
+    width: 100%;
+  }
 }
 .workwithJSON section article {
   
@@ -156,7 +161,8 @@ body {
 }
 
 .workwithJSON h2 {
-  font-size: 2.5rem;
-  letter-spacing: -5px;
+
+  letter-spacing: 1px;
   margin-bottom: 10px;
 }
+
