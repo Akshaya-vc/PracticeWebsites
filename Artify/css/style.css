@@ -204,19 +204,19 @@ a {
 /* Slideshow images 1 */
 
 .london {
-  background-image: url("https://d225a8zvmqqxlr.cloudfront.net/_resource/img/london/img-london.jpg");
+  background-image: url('../images/london.jpg');
 }
 .berlin {
-  background-image: url("https://d225a8zvmqqxlr.cloudfront.net/_resource/img/berlin/img-berlin-new.jpg");
+  background-image: url("../images/berlin.jpg");
 }
 .buenos {
-  background-image: url("https://d225a8zvmqqxlr.cloudfront.net/_resource/img/buenos/img-buenos.jpg");
+  background-image: url('../images/buenos-aires.jpg');
 }
 .seoul {
-  background-image: url("https://d225a8zvmqqxlr.cloudfront.net/_resource/img/seoul/img-seoul.jpg");
+  background-image: url("../images/seoul.jpg");
 }
 .newyork {
-  background-image: url("https://d225a8zvmqqxlr.cloudfront.net/_resource/img/newyork/img-newyork.jpg");
+  background-image: url("../images/new-york.jpg");
 }
 .upslideimg {
   width: 100%;
@@ -295,7 +295,7 @@ a {
   background-image: url("https://wallpaperaccess.com/full/2339323.jpg");
 }
 .card5 {
-  background-image: url("http://cdn.business2community.com/wp-content/uploads/2013/01/Art-Gallery3.jpg");
+  background-image: url("https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,f_jpg,h_760,q_75,w_1900/v1/clients/wichita-redesign/Visit_Wichita_Kansas_Wichita_Art_Museum_ab2f81d5-0500-4ccd-af3a-20835143dc89.jpg");
 }
 
 /* Bottom venuelist */
@@ -369,6 +369,9 @@ a {
   .navbutton,
   .sidepanel {
     display: none;
+  }
+  .navbutton :hover{
+    cursor: pointer;
   }
   .landing{
     margin: 40px;
